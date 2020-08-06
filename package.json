@@ -9,6 +9,7 @@
     "init": "^0.1.2",
     "inquirer": "^7.3.3",
     "moment": "^2.27.0",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
   "devDependencies": {},

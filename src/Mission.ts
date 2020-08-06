@@ -41,4 +41,8 @@ export  class Mission {
     public addStudent(student: Student): void {
         this.students.push(student)
     }
+
+    public setName(name:string) {
+        this.name = name
+    }
 }

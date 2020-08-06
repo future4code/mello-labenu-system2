@@ -1,6 +1,6 @@
 import { User } from "./User"
 import moment from "moment"
-import { MemoryMeasurement } from "vm";
+
 
 export class Student implements User {
     constructor (
@@ -13,7 +13,7 @@ export class Student implements User {
 
     public getAge(): number {
         const age: number = moment().diff(moment(this.birthDate, "DD/MM/YYYY"), "years")
-        
+
         return age
     } 
 }

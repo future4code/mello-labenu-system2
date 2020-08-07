@@ -1,16 +1,5 @@
-
-// import moment from "moment"
-
-// abstract class Mission {
-//     private name: string
-
-//     constructor (
-//         private 
-//     )
-
-// }
- import { Student } from "./Student"
- import { Teacher} from "./Teacher"
+import { Student } from "./Student"
+import { Teacher} from "./Teacher"
 
 export abstract class Mission { 
     private name: string = ""

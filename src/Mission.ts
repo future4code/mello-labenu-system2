@@ -1,15 +1,15 @@
  import { Student } from "./Student"
  import { Teacher} from "./Teacher"
 
-export  class Mission { 
+export abstract class Mission { 
     private name: string = ""
 
     constructor (
         private id: string,
         private startDate: string,
         private endDate: string,
-        // private teachers: Teacher[],
-        // private students: Student[],
+        private teachers: Teacher[],
+        private students: Student[],
         private currentModule?: number
     ) {}
 

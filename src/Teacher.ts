@@ -1,4 +1,4 @@
-import { User } from "./src/User";
+import { User } from "./User";
 
 
 enum SPECIALTY_TEACHER {
@@ -12,12 +12,12 @@ enum SPECIALTY_TEACHER {
 }
 
 
-export class Teachers implements User {
+export class Teacher implements User {
     constructor(
         public id: string,
         public name: string,
         public email: string,
         public birthDate: string,
-        public specialties: SPECIALTY_TEACHER []
+        public specialties: SPECIALTY_TEACHER[]
     ){}
 }
